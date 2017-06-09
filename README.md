@@ -6,16 +6,17 @@ still in progress.
 
 # Structure
 
-network framework: [boost::asio](http://think-async.com/)
+1. network framework: [boost::asio](http://think-async.com/)
 
-​	asynchronous nonblocking i/o & proactor
+   asynchronous nonblocking i/o & proactor
 
-message protocol: [google protobuf](https://developers.google.com/protocol-buffers/)
 
-hash map implementation: std::unordered_map\<std::string, std::string\>
+2. message protocol: [google protobuf](https://developers.google.com/protocol-buffers/)
 
-​	plan to use a more small-footprint customized one.
+3. hash map implementation: std::unordered_map\<std::string, std::string\>
 
-multi-thread support: currently single threaded, with asynchronous nonblocking i/o.
+   plan to use a more small-footprint customized one.
 
-compilation system: [cmake](https://cmake.org/)
+
+4. multi-thread support: currently single threaded, with asynchronous nonblocking i/o.
+5. compilation system: [cmake](https://cmake.org/)
