@@ -4,8 +4,6 @@
 
 
 int main() {
-    //mcmessage::Query query;
-    //message::Message m;
 
     Memcached memcached;
     memcached.run();
