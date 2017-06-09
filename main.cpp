@@ -1,0 +1,14 @@
+#include "proto/uMemcached.pb.h"
+#include <boost/asio.hpp>
+#include "memcached.h"
+
+
+int main() {
+    //mcmessage::Query query;
+    //message::Message m;
+
+    Memcached memcached;
+    memcached.run();
+
+    return 0;
+}
